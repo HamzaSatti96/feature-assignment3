@@ -1,4 +1,11 @@
-.App {
+body{
+  background-color: lightgrey;
+  color: #042743;
+  font-size: 20px;
+  text-align: center;
+  
+
+}.App {
   text-align: center;
 }
 
