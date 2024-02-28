@@ -37,6 +37,11 @@ export default function Navbar(props) {
                 LogIn
               </Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/AddProdcut">
+                AddProduct
+              </Link>
+            </li>
             {/* <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"

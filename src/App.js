@@ -3,6 +3,7 @@ import Login from './components/Layouts/Login';
 import Navbar from './components/Layouts/Navbar';
 import SignUp from './components/Layouts/SignUp';
 import Home from './components/Layouts/Home';
+import AddProduct from './components/Layouts/AddProduct';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import { useState } from 'react';
@@ -55,8 +56,10 @@ console.log(a);
             <Route exact path="/signup" element={ <SignUp mode={mode} />}/>
              
             <Route exact path="/login" element={ <Login mode={mode} />}/>
+            <Route exact path="/AddProdcut" element={<AddProduct/>}/>
         
           </Routes>
+
           {/* <SignUp mode={mode}/> */}
           {/* <Login mode={mode}/> */}
         </div>
